@@ -1,0 +1,15 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/marketapplication
+    username: postgres
+    password: 2611
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+secretKey: YWhyb3JudXJpZGRpbm92MjYzMDExaHVzbmlkZGlubydnJ2xpZGFzdHVyY2hpdGFsYWJhdmFob3ppcnRpbXVyYmlsYW5uaXJrdmFydGlyYWRhY2hpcmNoaXFkYXlhc2hheWFwdGl5YXFpbmRhaXRhbGl5YXZpemFkYW5hdGthem9sZGlrZXlpbmdpeWlsaHVkb2hvaGxhc2FjaGV0ZWxnYWtldGFkaQ
